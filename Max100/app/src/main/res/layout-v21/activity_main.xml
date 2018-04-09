@@ -1,0 +1,1457 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    android:gravity="center|bottom"
+    android:background="#EDBB99"
+    tools:context="com.example.ibrah.max100.MainActivity">
+
+
+    <LinearLayout
+        android:layout_weight="0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_0"
+            android:textSize="40sp" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_again"
+            android:onClick="again_onClick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:text="@string/play_again"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+    <GridLayout
+        android:layout_weight="5"
+        android:layout_margin="2dp"
+        android:background="#E59866"
+        android:rowCount="10"
+        android:columnCount="10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="@string/blank"
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b00"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b01"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b02"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b03"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b04"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b05"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b06"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b07"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b08"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b09"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b10"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b11"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b12"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b13"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b14"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b15"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b16"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b17"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b18"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b19"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b20"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b21"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b22"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b23"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b24"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b25"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b26"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b27"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b28"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b29"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b30"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b31"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b32"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b33"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b34"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b35"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b36"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b37"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b38"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b39"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b40"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b41"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b42"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b43"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b44"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b45"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b46"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b47"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b48"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b49"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b50"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b51"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b52"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b53"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b54"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b55"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b56"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b57"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b58"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b59"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b60"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b61"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b62"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b63"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b64"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b65"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b66"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b67"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b68"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b69"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b70"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b71"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b72"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b73"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b74"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b75"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b76"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b77"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b78"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b79"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b80"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b81"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b82"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b83"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b84"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b85"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b86"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b87"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b88"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b89"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b90"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b91"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b92"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b93"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b94"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b95"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b96"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b97"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b98"
+            />
+        <Button
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:width="0dp"
+            android:textSize="15sp"
+            android:text="   "
+            android:minHeight="0sp"
+            android:minWidth="0sp"
+            android:background="@color/clickable"
+            android:layout_margin="1dp"
+            android:onClick="button_onClick"
+            android:id="@+id/b99"
+            />
+
+    </GridLayout>
+
+</LinearLayout>

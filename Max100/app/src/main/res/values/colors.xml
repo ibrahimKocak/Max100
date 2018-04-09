@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="clickable">#AED6F1</color>
+    <color name="unclickable">#73A4A7</color>
+    <color name="greenLight2">#A2D9CE</color>
+    <color name="purpleLight">#EBDEF0</color>
+    <color name="clicked">#C39BD3</color>
+
+</resources>
